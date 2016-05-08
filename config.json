@@ -1,0 +1,27 @@
+{
+    "client_id": "",
+    "client_secret": "",
+    "user_agent": "SomethingUnique/1.0 by /u/Rascal_Two for /u/MasterLawlz running under /u/tomatometerbot at /r/RottenTomatoes",
+    "username": "",
+    "password": "",
+    "subreddit": "RottenTomatoes",
+    "check_rate": 3600,
+    "post_title_format": "{movie_title} - {tomato_score}%",
+    "post_flairs": {
+        "enabled": true,
+        "flairs": [
+            {
+                "min": 0,
+                "max": 59,
+                "text": "Rotten",
+                "class": "rotten"
+            },
+            {
+                "min": 60,
+                "max": 100,
+                "text": "Fresh",
+                "class": "fresh"
+            }
+        ]
+    }
+}
