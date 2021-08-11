@@ -1,6 +1,6 @@
 # Reddit /r/RottenTomatoes Top Box Office Poster
 
-Made for /u/MasterLawlz to post all movies that enter the Top Box office and have been out for at least one weekend to /r/RottenTomatoes.
+Post all movies that enter the Top Box office and have been out for at least one weekend to a subreddit.
 
 Requires `username`, `password`, `client_id`, and `client_secret` for the Reddit account the bot will run under.
 
@@ -133,13 +133,3 @@ If so, then the movie is added to the list of movies to post.
 *****
 
 For every movie that is approved to be posted, they're first posted. Then the flair is calculated based on the the tomato score, and the flair is assigned to the post.
-
-*****
-
-# TODO
-
-> I may do some of these, I may do none of these. Depends on how worth-it said feature would be.
-
-- Convert to [PRAW](https://praw.readthedocs.io/en/stable/)
-
-- Logging to file.
